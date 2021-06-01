@@ -5,6 +5,8 @@
 python manage.py drive --model models/angle_with_light13.xml
 release里有很多文件，是我之前通过github把一些训练需要的文件上传到kaggle用的。
 
-项目是在开源项目donkeycar上做了修改，巡线和识别红绿灯用了两个模型，并且使用了计算棒加速，所以修改了donkeycar\donkeycar\parts文件夹下的keras.py,修改了模型训练，推理相关的代码。
+项目是在开源项目donkeycar上做了修改,官方仓库地址：https://github.com/autorope/donkeycar
+巡线和识别红绿灯用了两个模型，并且使用了计算棒加速，所以修改了donkeycar\donkeycar\parts文件夹下的keras.py,修改了模型训练，推理相关的代码。
 然后还对遥控器的功能做了些简单修改。
+
 ![demo](3.gif)
