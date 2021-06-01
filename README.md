@@ -13,7 +13,7 @@ openvino版本2019.3 因为计算棒是NCS一代，所以openvino也用的比较
 项目是在开源项目donkeycar上做了修改,官方仓库地址：https://github.com/autorope/donkeycar
 巡线和识别红绿灯用了两个模型，并且使用了计算棒加速，所以修改了donkeycar\donkeycar\parts文件夹下的keras.py,修改了模型训练，推理相关的代码。
 然后还对遥控器的功能做了些简单修改。  
-h52pb.py是用来把keras的.h5模型转成pb模型的，因为openvino不支持.h5直接转成IR模型。IR.py是加载单个IR模型做推理的实例代码。
+h52pb.py是用来把keras的.h5模型转成pb模型的，因为openvino不支持.h5直接转成IR模型。IR.py是加载单个IR模型做推理的示例代码。
 
 演示视频：
 
