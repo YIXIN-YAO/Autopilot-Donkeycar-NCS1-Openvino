@@ -18,5 +18,6 @@ h52pb.py是用来把keras的.h5模型转成pb模型的，因为openvino不支持
 演示视频：
 
 ![demo](3.gif)
+模型：
 ![image](https://user-images.githubusercontent.com/47975865/147729809-284ab827-2566-4eb7-bd7d-7cad7403e88a.png)
 
