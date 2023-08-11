@@ -1,5 +1,5 @@
 # README
-A project conducted in May 2021. A small car equipped with Raspberry Pi 4B achieves automatic line following and recognition of red traffic lights for speed control through deep learning. An Intel Neural Compute Stick is externally connected to the Raspberry Pi to accelerate inference.
+A project conducted in May 2021. A small car equipped with Raspberry Pi 4B achieves automatic line following and recognition of red traffic lights for speed control through deep learning. An Intel Neural Compute Stick is externally connected to the Raspberry Pi to accelerate inference.  
 21年5月份做的一个项目。  
 搭载树莓派4B的小车通过深度学习实现自动巡线、识别红路灯加速减速。树莓派外接Intel神经计算棒实现加速推理。  
 执行mycar文件夹中的drive函数启动小车：  
